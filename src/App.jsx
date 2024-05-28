@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
+import Giving from './components/Giving'
 import useDarkMode from './Hooks/useDarkMode'
 
 function App() {
@@ -20,9 +21,10 @@ function App() {
 
   return (
     <div className={`${darkMode && 'dark'}`}>
-      <div className='bg-light-body-color dark:bg-dark-body-color select-none'>
+      <div className='bg-light-body-color dark:bg-dark-body-color select-none z-10'>
         <Navbar/>
         <Hero/>
+        <Giving/>
       </div>
     </div>
   )
