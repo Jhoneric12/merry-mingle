@@ -11,7 +11,7 @@ function Hero() {
             <img src={HomeDesktop} alt="" className='hidden md:block'/>
         </div>
         <div className="description flex flex-col items-center md:items-start gap-4 md:w-1/2 md:text-left">
-            <h1 className='text-2xl md:text-6xl text-light-title-color font-semibold dark:text-dark-title-color leading-loose'>Merry Christmas and Happy New Year!</h1>
+            <h1 className='text-2xl md:text-6xl text-light-title-color font-semibold dark:text-dark-title-color'>Merry Christmas and Happy New Year!</h1>
             <p className='text-sm text-light-text-color dark:text-dark-text-color'>Christmas and a new year is about to begin, all good wishes and successes.</p>
             <Button btnText={'Get Started'}/> 
         </div>
