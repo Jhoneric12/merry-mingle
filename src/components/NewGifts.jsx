@@ -7,7 +7,7 @@ function NewGifts() {
   return (
     <div className='py-24 md:px-30 lg:px-60'>
         <SectionTitle title={'New Gifts'}/>
-        <div className='card-wrapper py-10 flex justify-around items-center overflow-x-auto gap-10 rounded-xl px-6'>
+        <div className='card-wrapper py-10 flex justify-around items-center overflow-x-auto gap-6 rounded-xl px-6'>
             {
                 Newgifts.map(newgift => (
                     <div key={newgift.id} className=' card shadow-md w-[20rem] rounded-lg text-center pb-6 shrink-0 h-auto'>
