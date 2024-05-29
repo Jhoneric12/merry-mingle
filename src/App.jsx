@@ -22,6 +22,17 @@ function App() {
     }
   }, []);
 
+  useEffect(() => {
+    window.addEventListener('scroll', () => {
+      const navbar = document.querySelector('.navbar');
+      const scroll = window.scrollY;
+
+      if (scroll > 0) {
+        navbar.style.position = 'static'
+      }
+    })
+  });
+
   return (
     <div className={`${darkMode && 'dark'}`}>
       <div className='bg-light-body-color dark:bg-dark-body-color select-none z-10'>
