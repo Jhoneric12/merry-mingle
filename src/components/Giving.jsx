@@ -12,7 +12,7 @@ function Giving() {
                     <div className='flex flex-col items-center justify-center rounded-lg p-4 text-center gap-2 shadow-md md:shadow-none' key={giving.id}>
                         <img src={giving.image} alt="" />
                         <h1 className='text-light-title-color dark:text-dark-title-color font-semibold mt-auto' >{giving.title}</h1>
-                        <p className='text-light-text-color dark:text-dark-text-color text-sm mt-auto w-3/4 mt-auto'>{giving.description}</p>
+                        <p className='text-light-text-color dark:text-dark-text-color text-sm mt-auto w-3/4'>{giving.description}</p>
                     </div>
                 ))
             }

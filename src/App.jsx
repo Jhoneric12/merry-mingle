@@ -4,6 +4,8 @@ import viteLogo from '/vite.svg'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Giving from './components/Giving'
+import Celebrate from './components/Celebrate'
+import Share from './components/Share'
 import useDarkMode from './Hooks/useDarkMode'
 
 function App() {
@@ -25,6 +27,8 @@ function App() {
         <Navbar/>
         <Hero/>
         <Giving/>
+        <Celebrate/>
+        <Share/>
       </div>
     </div>
   )
