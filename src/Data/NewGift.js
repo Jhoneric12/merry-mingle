@@ -1,5 +1,7 @@
 import Reindeer from '../assets/Reindeer.png'
 import ChristmasWreath from '../assets/christmas-wreath.png'
+import Sledge from '../assets/sledge.png'
+import SnowGlobe from '../assets/snow-globe.png'
 
 export const Newgifts = [
     {
@@ -16,26 +18,14 @@ export const Newgifts = [
     },
     {
         id: 3,
-        name: 'Christmas Wreath',
-        price: 18,
-        image: ChristmasWreath
+        price: 75,
+        name: 'Sledge',
+        image: Sledge
     },
     {
         id: 4,
-        name: 'Christmas Wreath',
-        price: 18,
-        image: ChristmasWreath
-    },
-    {
-        id: 5,
-        name: 'Christmas Wreath',
-        price: 18,
-        image: ChristmasWreath
-    },
-    {
-        id: 6,
-        name: 'Christmas Wreath',
-        price: 18,
-        image: ChristmasWreath
+        price: 20,
+        name: 'Snow Globe',
+        image: SnowGlobe
     },
 ];

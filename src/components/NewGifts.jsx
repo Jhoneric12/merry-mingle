@@ -10,7 +10,7 @@ function NewGifts() {
         <div className='card-wrapper py-10 flex justify-around items-center overflow-x-auto gap-6 md:gap-4 rounded-xl px-6'>
             {
                 Newgifts.map(newgift => (
-                    <div key={newgift.id} className=' card shadow-md w-[20rem] rounded-lg text-center pb-6 shrink-0 h-auto'>
+                    <div key={newgift.id} className=' card shadow-md w-[20rem] rounded-lg text-center pb-6 shrink-0 h-auto hover:translate-y-[-5px] transition duration-100'>
                         <div className='bg-light-primary-color flex justify-center items-center rounded-b-[50%] rounded-lg shadow-md py-6 mb-6'>
                             <img src={newgift.image} alt="" />
                         </div>
