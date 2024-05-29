@@ -30,6 +30,9 @@ function App() {
       if (scroll > 0) {
         navbar.style.position = 'static'
       }
+      else {
+        navbar.style.position = 'fixed'
+      }
     })
   });
 
