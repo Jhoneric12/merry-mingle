@@ -1,0 +1,11 @@
+.card-wrapper::-webkit-scrollbar {
+    width: 0;
+}
+
+.card-wrapper {
+    flex-direction: row;
+}
+
+.newgift-container::-webkit-scrollbar {
+    width: 0;
+}
