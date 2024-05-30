@@ -7,6 +7,7 @@ import Giving from './components/Giving'
 import Celebrate from './components/Celebrate'
 import Share from './components/Share'
 import NewGifts from './components/NewGifts'
+import Letter from './components/Letter'
 import useDarkMode from './Hooks/useDarkMode'
 
 function App() {
@@ -45,6 +46,7 @@ function App() {
         <Celebrate/>
         <Share/>
         <NewGifts/>
+        <Letter/>
       </div>
     </div>
   )
