@@ -9,3 +9,11 @@
 .newgift-container::-webkit-scrollbar {
     width: 0;
 }
+
+/* .backtotop {
+    transition: 0.3s;
+} */
+
+.backtotop:hover {
+    transform: scale(1.3);
+}

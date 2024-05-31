@@ -28,19 +28,31 @@ function App() {
   useEffect(() => {
     window.addEventListener('scroll', () => {
       const navbar = document.querySelector('.navbar');
-      const backTop = document.querySelector('.backtotop')
       const scroll = window.scrollY;
 
       if (scroll > 0) {
         navbar.style.position = 'static'
-        backTop.style.display = 'block'
       }
       else {
         navbar.style.position = 'fixed'
-        backTop.style.display = 'none'
       }
     })
   });
+
+  useEffect(() => {
+    window.addEventListener('scroll', () => {
+      const backTop = document.querySelector('.backtotop');
+      const scroll = window.scrollY;
+
+      if (scroll > 180) {
+        backTop.style.display = 'block'
+      }
+      else {
+        backTop.style.display = 'none'
+      }
+
+    })
+  }, [])
 
   return (
     <div className={`${darkMode && 'dark'}`}>

@@ -1,5 +1,6 @@
 import React from 'react'
 import Button from './Button'
+import '../styles/utils.css'
 
 function BackToTop() {
   return (
@@ -10,7 +11,7 @@ function BackToTop() {
                     <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 15.75 7.5-7.5 7.5 7.5" />
                 </svg>
             }
-            styles={'backtotop hidden bottom-10 right-10 opacity-70 rounded-full px-3 py-3'}
+            styles={'hidden fixed backtotop bottom-10 right-10 rounded-full px-2 py-2 shadow-lg transition duration-300 z-90'}
         />
     </a>
   )
