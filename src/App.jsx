@@ -52,7 +52,7 @@ function App() {
       }
 
     })
-  }, [])
+  })
 
   return (
     <div className={`${darkMode && 'dark'}`}>
