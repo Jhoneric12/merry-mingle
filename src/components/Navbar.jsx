@@ -46,13 +46,13 @@ function Navbar() {
             </svg>
         </div>
       </nav>
-      <ul className={`${isOpen ? 'bg-light-body-color dark:bg-dark-body-color shadow-xl fixed h-screen right-0 top-0 w-1/2 z-40 flex flex-col justify-center items-center gap-10 transition duration-150 backdrop-opacity-80' : 'hidden'}`}>
+      <ul className={`${isOpen ? 'bg-light-body-color dark:bg-dark-body-color shadow-2xl fixed h-screen right-0 top-0 w-3/4 z-40 flex flex-col justify-center items-center gap-10 transition duration-500 ease-in-out backdrop-opacity-80' : 'hidden'}`}>
         <li className='text-light-title-color dark:text-dark-title-color text-sm'>Home</li>
         <li className='text-light-title-color dark:text-dark-title-color text-sm'>Celebrate</li>
         <li className='text-light-title-color dark:text-dark-title-color text-sm'>Gifts</li>
         <li className='text-light-title-color dark:text-dark-title-color text-sm'>New</li>
         <svg onClick={handleOpen} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className='text-light-text-color dark:text-dark-text-color h-6 w-6 absolute top-6 right-6'>
-          <path stroke-linecap="round" stroke-linejoin="round" d="m9.75 9.75 4.5 4.5m0-4.5-4.5 4.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+          <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
         </svg>
       </ul>
     </div>
