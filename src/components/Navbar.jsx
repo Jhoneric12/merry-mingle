@@ -2,6 +2,7 @@ import React, { useContext, useEffect, useState } from 'react'
 // import { DarkMode } from '../Contexts/DarkModeContext'
 import useDarkMode from '../Hooks/useDarkMode';
 import MerryLogo from '../assets/merry-logo.png'
+import NavBalls from '../assets/nav-balls.png'
 
 function Navbar() {
 
@@ -54,6 +55,7 @@ function Navbar() {
         <svg onClick={handleOpen} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className='text-light-text-color dark:text-dark-text-color h-6 w-6 absolute top-6 right-6'>
           <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
         </svg>
+        <img src={NavBalls} alt="" className='absolute top-0 left-0 animate-pulse'/>
       </ul>
     </div>
   )

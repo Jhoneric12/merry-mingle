@@ -2,11 +2,12 @@ import React from 'react'
 import MerryLogo from '../assets/merry-logo.png'
 import GooglePlay from '../assets/google-play.png'
 import AppStore from '../assets/app-store.png'
+import FooterBalls from '../assets/footer-balls.png'
 
 function Footer() {
   return (
     <div className='py-4'>
-        <footer className='flex flex-col gap-10 px-6 py-20 md:grid md:grid-cols-4 md:place-items-center'>
+        <footer className='relative flex flex-col gap-10 px-6 py-20 md:grid md:grid-cols-4 md:place-items-center'>
             <div className='flex flex-col justify-start h-full'>
                 <a href='#' className="logo flex gap-2 font-medium mb-4">
                     <img src={MerryLogo} alt="" />
@@ -37,6 +38,7 @@ function Footer() {
                     <img src={AppStore} alt="" />
                 </div>
             </div>
+            <img src={FooterBalls} alt="" className='absolute top-40 right-20 md:top-48 md:right-0 md:left-20 animate-bounce'/>
         </footer>
         <h1 className='text-center text-light-text-color-light dark:text-dark-text-color-light text-xs'>Developed by Jhon Eric Aton</h1>
     </div>
