@@ -12,7 +12,7 @@ function Navbar() {
   }
 
   return (
-    <nav className='navbar flex items-center justify-between p-6 md:justify-around fixed w-full z-30'>
+    <nav className='navbar absolute flex items-center justify-between p-6 md:justify-around w-full z-30'>
       <a className="logo flex items-center gap-4" href='#'>
         <img src={MerryLogo} alt="" />
         <h1 className='text-light-title-color dark:text-dark-title-color font-semibold'>Merry Mingle</h1>

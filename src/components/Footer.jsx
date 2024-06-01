@@ -12,11 +12,11 @@ function Footer() {
                     <img src={MerryLogo} alt="" />
                     <h1 className='text-light-title-color dark:text-dark-title-color'>Merry Mingle</h1>
                 </a>
-                <p className='text-xs text-light-text-color dark:text-dark-text-color'>This Christmas give a lot of love</p>
+                <p className='text-sm text-light-text-color dark:text-dark-text-color'>This Christmas give a lot of love</p>
             </div>
             <div>
                 <h1 className='mb-4 font-semibold text-light-title-color dark:text-dark-text-color'>Our Services</h1>
-                <ul className='text-xs text-light-text-color dark:text-dark-text-color flex flex-col gap-2'>
+                <ul className='text-sm text-light-text-color dark:text-dark-text-color flex flex-col gap-2'>
                     <li className='hover:text-light-primary-color'>Pricing</li>
                     <li className='hover:text-light-primary-color'>Discounts</li>
                     <li className='hover:text-light-primary-color'>Shipping Mode</li>
@@ -24,7 +24,7 @@ function Footer() {
             </div>
             <div>
                 <h1 className='mb-4 font-semibold text-light-title-color dark:text-dark-text-color'>Support</h1>
-                <ul className='text-xs text-light-text-color dark:text-dark-text-color flex flex-col gap-2'>
+                <ul className='text-sm text-light-text-color dark:text-dark-text-color flex flex-col gap-2'>
                     <li className='hover:text-light-primary-color'>FAQ's</li>
                     <li className='hover:text-light-primary-color'>Support Center</li>
                     <li className='hover:text-light-primary-color'>Contact Us</li>

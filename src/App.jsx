@@ -27,20 +27,6 @@ function App() {
 
   useEffect(() => {
     window.addEventListener('scroll', () => {
-      const navbar = document.querySelector('.navbar');
-      const scroll = window.scrollY;
-
-      if (scroll > 0) {
-        navbar.style.position = 'static'
-      }
-      else {
-        navbar.style.position = 'fixed'
-      }
-    })
-  });
-
-  useEffect(() => {
-    window.addEventListener('scroll', () => {
       const backTop = document.querySelector('.backtotop');
       const scroll = window.scrollY;
 
